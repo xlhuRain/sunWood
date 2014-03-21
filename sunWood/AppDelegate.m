@@ -2,7 +2,7 @@
 //  AppDelegate.m
 //  sunWood
 //
-//  Created by xlhu_mac on 14-1-16.
+//  Created by xlhu_mac on 14-1-16.Yes,you are right;
 //  Copyright (c) 2014年 tagux-mac. All rights reserved.
 //
 
