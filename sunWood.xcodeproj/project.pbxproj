@@ -21,6 +21,10 @@
 		CBECDDBA1887F3C0006AFD21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBECDD9C1887F3C0006AFD21 /* UIKit.framework */; };
 		CBECDDC21887F3C0006AFD21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBECDDC01887F3C0006AFD21 /* InfoPlist.strings */; };
 		CBECDDC41887F3C0006AFD21 /* sunWoodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBECDDC31887F3C0006AFD21 /* sunWoodTests.m */; };
+		CBECDDD01887F46A006AFD21 /* 背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBECDDCD1887F469006AFD21 /* 背景.jpg */; };
+		CBECDDD11887F46A006AFD21 /* 模型.png in Resources */ = {isa = PBXBuildFile; fileRef = CBECDDCE1887F46A006AFD21 /* 模型.png */; };
+		CBECDDD21887F46A006AFD21 /* 阴影.png in Resources */ = {isa = PBXBuildFile; fileRef = CBECDDCF1887F46A006AFD21 /* 阴影.png */; };
+		CBECDDD41887FBF7006AFD21 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBECDDD31887FBF7006AFD21 /* CoreMotion.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		CBECDDBF1887F3C0006AFD21 /* sunWoodTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sunWoodTests-Info.plist"; sourceTree = "<group>"; };
 		CBECDDC11887F3C0006AFD21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBECDDC31887F3C0006AFD21 /* sunWoodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunWoodTests.m; sourceTree = "<group>"; };
+		CBECDDCD1887F469006AFD21 /* 背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpg"; sourceTree = "<group>"; };
+		CBECDDCE1887F46A006AFD21 /* 模型.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "模型.png"; sourceTree = "<group>"; };
+		CBECDDCF1887F46A006AFD21 /* 阴影.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "阴影.png"; sourceTree = "<group>"; };
+		CBECDDD31887FBF7006AFD21 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBECDDD41887FBF7006AFD21 /* CoreMotion.framework in Frameworks */,
 				CBECDD9B1887F3C0006AFD21 /* CoreGraphics.framework in Frameworks */,
 				CBECDD9D1887F3C0006AFD21 /* UIKit.framework in Frameworks */,
 				CBECDD991887F3C0006AFD21 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		CBECDD971887F3C0006AFD21 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBECDDD31887FBF7006AFD21 /* CoreMotion.framework */,
 				CBECDD981887F3C0006AFD21 /* Foundation.framework */,
 				CBECDD9A1887F3C0006AFD21 /* CoreGraphics.framework */,
 				CBECDD9C1887F3C0006AFD21 /* UIKit.framework */,
@@ -126,6 +136,9 @@
 		CBECDD9F1887F3C0006AFD21 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CBECDDCD1887F469006AFD21 /* 背景.jpg */,
+				CBECDDCE1887F46A006AFD21 /* 模型.png */,
+				CBECDDCF1887F46A006AFD21 /* 阴影.png */,
 				CBECDDA01887F3C0006AFD21 /* sunWood-Info.plist */,
 				CBECDDA11887F3C0006AFD21 /* InfoPlist.strings */,
 				CBECDDA41887F3C0006AFD21 /* main.m */,
@@ -228,6 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBECDDD11887F46A006AFD21 /* 模型.png in Resources */,
+				CBECDDD01887F46A006AFD21 /* 背景.jpg in Resources */,
+				CBECDDD21887F46A006AFD21 /* 阴影.png in Resources */,
 				CBECDDB11887F3C0006AFD21 /* Images.xcassets in Resources */,
 				CBECDDA31887F3C0006AFD21 /* InfoPlist.strings in Resources */,
 				CBECDDAC1887F3C0006AFD21 /* Main.storyboard in Resources */,
